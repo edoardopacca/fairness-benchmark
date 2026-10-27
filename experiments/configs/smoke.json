@@ -1,0 +1,23 @@
+{
+  "scenarios": ["quadratic"],
+  "seeds": [0],
+  "methods": ["baseline", "pearson", "mary_chi2", "gedi", "neural_hgr"],
+  "lambdas": [1.0],
+  "batch_sizes": [64],
+  "sizes": {"train": 256, "validation": 128, "audit": 128, "test": 256},
+  "epochs": 3,
+  "warmup_epochs": 1,
+  "hidden": [32, 16],
+  "lr": 0.003,
+  "adversary_lr": 0.001,
+  "adversary_steps": 5,
+  "gedi_degree": 3,
+  "grad_clip": 5.0,
+  "monitor_every": 1,
+  "eval_max_n": 128,
+  "permutations": 19,
+  "audit_groups": 3,
+  "audit_grid": 16,
+  "selection_dcor_limit": 0.15,
+  "threads": 1
+}

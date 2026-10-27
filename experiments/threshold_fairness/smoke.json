@@ -1,0 +1,53 @@
+{
+  "scenarios": [
+    "controlled",
+    "quadratic",
+    "nonmonotonic"
+  ],
+  "seeds": [
+    100,
+    101
+  ],
+  "lambdas": [
+    0.1,
+    1.0
+  ],
+  "temperatures": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "sizes": {
+    "train": 256,
+    "validation": 128,
+    "audit": 128,
+    "test": 256
+  },
+  "hidden": [
+    32,
+    16
+  ],
+  "epochs": 3,
+  "warmup_epochs": 1,
+  "batch_size": 256,
+  "lr": 0.003,
+  "gedi_degree": 3,
+  "grad_clip": 5.0,
+  "threshold": 0.5,
+  "evaluation_thresholds": [
+    0.4,
+    0.5,
+    0.6
+  ],
+  "groups": 3,
+  "audit_grid": 16,
+  "eval_max_n": 128,
+  "accuracy_tolerance": 0.02,
+  "fairness_target": 0.1,
+  "near_constant_std": 0.01,
+  "near_degenerate_prevalence": 0.01,
+  "audit_permutations": 999,
+  "workers": 3,
+  "threads_per_worker": 1
+}

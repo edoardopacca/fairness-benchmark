@@ -1,0 +1,52 @@
+{
+  "continuous-fairness": {
+    "origin": "https://github.com/criteo-research/continuous-fairness.git",
+    "commit": "f095de0369a2a995af42316350410bc3025cf0fc",
+    "files": {
+      "third_party/mary/hgr.py": {
+        "upstream_path": "facl/independence/hgr.py",
+        "sha256": "b10734f01b700fa6c6631b6024ab7ff06bb12ab0626b80747b525c2ae9890ea1"
+      },
+      "third_party/mary/pytorch_kde.py": {
+        "upstream_path": "facl/independence/density_estimation/pytorch_kde.py",
+        "sha256": "b052ca105598b520843900dee93246158705fe67be56cea264a56726f812daf1"
+      },
+      "third_party/mary/LICENSE": {
+        "upstream_path": "LICENSE",
+        "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+      }
+    }
+  },
+  "GeneralizedDisparateImpact": {
+    "origin": "https://github.com/giuluck/GeneralizedDisparateImpact.git",
+    "commit": "6b66b95be40c1c825beff0486c2913e381fabf8b",
+    "files": {
+      "third_party/gedi/metrics.py": {
+        "upstream_path": "src/metrics.py",
+        "sha256": "77dbce50a8eb92b886c59a8feb0cf3f4ee9bd3c79f6233f6fcf94cab0d19b151"
+      },
+      "third_party/gedi/LICENSE": {
+        "upstream_path": "LICENSE",
+        "sha256": "276e9b95cd3177646b8364db88c94647f6785dcdaf152af5b50da9c6869c3a25"
+      }
+    }
+  },
+  "fair_groups": {
+    "origin": "https://github.com/artefactory/fair_groups.git",
+    "commit": "f8d225a94fd962d3f7e8ef58e1545669cc21b267",
+    "files": {
+      "third_party/fairgroups/partition_estimation.py": {
+        "upstream_path": "fair_groups/partition_estimation.py",
+        "sha256": "f12036e23149121cb66e0794c6e6804a2371ebc000b36c1d10bcdbb8b7f7a15a"
+      },
+      "third_party/fairgroups/fairness_metrics.py": {
+        "upstream_path": "fair_groups/fairness_metrics.py",
+        "sha256": "ce4263a1445cb1259f1da6df56bccde2d2df5294c6c74d131f9470b9a4a7f889"
+      },
+      "third_party/fairgroups/LICENSE": {
+        "upstream_path": "LICENSE",
+        "sha256": "0c3d62dc6b0d680c24a67fab9c025fbc607fd89ad6740a801b5bfaec04745832"
+      }
+    }
+  }
+}
